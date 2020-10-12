@@ -1,3 +1,4 @@
+import './widgets/UserTransactions.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -26,6 +27,7 @@ class MyHomePage extends StatelessWidget {
               child:
                   Card(elevation: 5, color: Colors.blue, child: Text('CHART!')),
             ),
+            UserTransaction()
           ],
         ));
   }

@@ -22,7 +22,7 @@ class Chart extends StatelessWidget {
       print(totalSum);
       print(DateFormat.E().format(weekDay).substring(0, 1));
       return {'day': DateFormat.E().format(weekDay), 'amount': totalSum};
-    });
+    }).reversed.toList();
   }
 
   double get maxSpending {
